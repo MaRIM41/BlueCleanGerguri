@@ -183,10 +183,10 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>SF SWISS TECHNOLOGY GMBH</title>
+        <title>BLUECLEAN Gerguri | Ihr Partner für Reinigungen aller Art.</title>
         <meta
           name="description"
-          content="CNC - Frästeile aus Stahl, Edelstahl, Alumunium, Kunststoff und vielen weiteren Materialien!"
+          content="Ihr Partner für Reinigungen aller Art."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
