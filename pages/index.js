@@ -233,10 +233,10 @@ export default function Home() {
          <div className="services">
 
            <div className={styles.textCarousel}>
-            <span>Wir sind </span>
+            <span>SOMMERAKTION - Gutschein  </span>
             <p
               className="spin-text-carousel"
-              data-rotate='["schnell.", "präzise.", "flexibel.", "bezahlbar.", "Profis."]'
+              data-rotate='["5% ab 200 CHF.", "10% ab 400 CHF.", "15% ab 800 CHF.", "20% ab 1600 CHF."]'
             ></p>
           </div>
 
