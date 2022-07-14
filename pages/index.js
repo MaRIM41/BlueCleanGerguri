@@ -295,11 +295,6 @@ export default function Home() {
           </p>
         <img src={bannerImagePath2} alt="schnell" width="100%" />
         <img src={bannerImagePath} alt="zusammenarbeit" width="100%" />
-        
-        <a href="https://sf-swiss.netlify.app/unsere-maschinen">
-        <img src={bannerImagePath3} alt="Maschinen" width="100%" />
-        </a>
-        </div>
 
         <div className={`${styles.contactForm} contactForm`}>
           <div className={styles.contactFormLeft}>
