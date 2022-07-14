@@ -141,7 +141,7 @@
 .contactFormLeft {
     width: 100%;
     padding: 25px 10px;
-    background-color: #fff;
+    
 }
 
 .contactFormRight {
@@ -295,6 +295,7 @@
 
     .contactForm__paragraph {
         font-size: 110%;
+        background-color: #fff;
     }
 
 }
@@ -311,10 +312,12 @@
 
     .contactForm__heading {
         font-size: 290%;
+        background-color: #fff;
     }
 
     .contactForm__paragraph {
         font-size: 135%;
+        background-color: #fff;
     }
 }
 
