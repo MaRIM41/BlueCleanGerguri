@@ -66,22 +66,13 @@ export default function ContactBar() {
       <div className={styles.scrollTop} onClick={scrollToTop}>
         <FontAwesomeIcon icon={faChevronUp} className={styles.scrollTopIcon} />
       </div>
-
-      <span className={styles.contactBar__email}>
-        <FontAwesomeIcon
-          icon={faEnvelope}
-          className={styles.contactBar__icons}
-          fixedWidth
-        />
-        <a href="mailto:info@sf-swiss.ch">info@sf-swiss.ch</a>
-      </span>
       <span className={styles.contactBar__phones}>
         <FontAwesomeIcon
           icon={faPhoneAlt}
           className={styles.contactBar__icons}
           fixedWidth
         />
-        <a href="tel:+41 76 378 11 23">+41 76 378 11 23</a>
+        <a href="tel:+41 76 378 11 23">Jetzt anrufen</a>
       </span>
     </address>
   );
