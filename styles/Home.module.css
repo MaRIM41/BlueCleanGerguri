@@ -36,7 +36,7 @@
     display: inline-block;
     color: #2E3192;
     text-align: left;
-    width: 135px;
+    width: 250px;
 }
 
 .services {
@@ -249,7 +249,7 @@
     }
 
     .textCarousel p {
-        width: 270px;
+        width: 400px;
     }
 
     .services__s1,
