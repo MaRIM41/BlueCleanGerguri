@@ -141,6 +141,7 @@
 .contactFormLeft {
     width: 100%;
     padding: 25px 10px;
+    background-color: #fff;
 }
 
 .contactFormRight {
@@ -152,6 +153,7 @@
     font: italic bold 200% 'Merriweather', serif;
     margin-top: 25px;
     margin-bottom: 25px;
+    background-color: #fff;
 }
 
 .envelopeIcon {
