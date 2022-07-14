@@ -67,7 +67,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <p className={styles.copyright}>© 2022 sf-swiss.ch</p>
+      <p className={styles.copyright}>© 2022 blueclean.ch</p>
       <p className={styles.createdBy}>
         erstellt von{" "}
         <a href="https://www.dinihomepage.ch/" target="_blank" rel="noreferrer">
