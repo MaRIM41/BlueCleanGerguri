@@ -1,0 +1,104 @@
+.navbar {
+    background-color: #fff;
+    opacity: .94;
+    color: #000;
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar__logo {
+    width: 200px;
+}
+
+.navbar__menuIcon {
+    width: 30px;
+    height: 30px;
+    margin-top: -5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.navbar__mobileMenus {
+    background-color: #121212;
+    width: 100%;
+    position: fixed;
+    top: 75px;
+    left: 0;
+    z-index: 10;
+    height: calc(100vh - 75px);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.navbar__mobileMenus span,
+.navbar__mobileMenus a {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.navbar__mobileMenus span:hover,
+.navbar__mobileMenus a:hover {
+    color: #6e6e6e;
+}
+
+.navbar__mobileMenusHide {
+    display: none;
+}
+
+.navbar__mapLocIcon {
+    color: #fff;
+    width: 100px;
+}
+
+.navbar__mapLocIcon:hover {
+    color: #6e6e6e;
+}
+
+/* 1025px For Large screens or Desktops */
+@media screen and (min-width: 1025px) {
+    .navbar__menuIcon {
+        display: none;
+    }
+
+    .navbar__menus {
+        width: 700px;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 25px;
+    }
+
+    .navbar__menus span,
+    .navbar__menus a {
+        text-decoration: none;
+        color: black;
+        font-size: 24px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .navbar__menus span:hover,
+    .navbar__menus a:hover {
+        color: #6e6e6e;
+    }
+
+}

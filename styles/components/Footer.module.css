@@ -1,0 +1,121 @@
+.footer {
+    background-color: #121212;
+    color: #fff;
+    padding-bottom: 50px;
+    margin-top: -10px;
+    background-image: linear-gradient(90deg,#ed1c24,#000);
+}
+
+.footer__scrollTop {
+    background-color: #770e12;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 75px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 30px;
+    cursor: pointer;
+}
+
+.footer__scrollTopIcon {
+    width: 25px;
+}
+
+.footer__icons {
+    width: 25px;
+    height: 25px;
+    color: #fff;
+}
+
+.footer__info {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: -40px;
+}
+
+.footer__contact {
+    width: 100%;
+    padding: 10px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.footer__contact p:first-child {
+    font-weight: bold;
+}
+
+.footer__contact a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer__social {
+    width: 100%;
+    text-align: center;
+     margin-top: 25px; 
+}
+
+.footer__social .footer__icons {
+    margin: 15px 10px;
+}
+
+.footer__social a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer__social a:hover,
+.footer__social .footer__icons:hover {
+    color: #6e6e6e;
+}
+
+.copyright,
+.createdBy{
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+}
+
+.copyright{
+    padding-top: 10px;
+    font-size: 100%;
+}
+
+.createdBy{
+    padding-bottom: 20px;
+    font-size: 75%;
+}
+
+.createdBy a {
+    color: #fff;
+}
+
+/* 769px For Small screens or Laptops */
+@media screen and (min-width: 769px) {
+    .footer__contact {
+        width: 60%;
+        font-size: 125%;
+        line-height: 35px;
+        padding-left: 25px;
+        text-align: left;
+    }
+
+    .footer__social {
+        width: 40%;
+        font-size: 125%;
+        margin-top: 50px; 
+    }
+}
+
+/* 1025px For Large screens or Desktops */
+@media screen and (min-width: 1025px) {
+    .footer__contact,
+    .footer__social  {
+        font-size: 150%;
+    }
+}

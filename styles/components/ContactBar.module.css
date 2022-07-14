@@ -1,0 +1,103 @@
+.contactBar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: #121212;
+    color: #fff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 9;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    visibility: hidden;
+}
+
+.contactBar__icons {
+    width: 16px !important;
+    height: 16px !important;
+    margin-right: 10px;
+    animation: sendBtnWiggle 5s infinite;
+}
+
+/* Animation Frames */
+@keyframes sendBtnWiggle {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    2% {
+        transform: rotate(-23deg);
+    }
+
+    3.5% {
+        transform: rotate(23deg);
+    }
+
+    5% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.contactBar__email,
+.contactBar__phones {
+    margin: 5px 10px;
+}
+
+.contactBar__email a,
+.contactBar__phones a {
+    text-decoration: none;
+    color: #fff;
+    font-style: normal;
+}
+
+.whatsappBtn {
+    width: 65px;
+    height: 65px;
+    position: fixed;
+    bottom: 85px;
+    left: 10px;
+    z-index: 9;
+    cursor: pointer;
+}
+
+.scrollTop {
+    background-color: #fff;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 65px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    bottom: 85px;
+    z-index: 9;
+    cursor: pointer;
+    box-shadow: 0 0 10px 2px #121212;
+}
+
+.scrollTopIcon {
+    width: 25px;
+    color: #121212;
+}
+
+
+@media screen and (min-width: 345px) {
+    .whatsappBtn,
+    .scrollTop {
+        bottom: 50px;
+    }
+}
+
+/* 1025px For Large screens or Desktops */
+@media screen and (min-width: 1025px) {
+    .contactBar {
+        display: none;
+    }
+}

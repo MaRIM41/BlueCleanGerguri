@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,700&display=swap');
+
+.redContainer,
+.whiteContainer {
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+}
+
+.redContainer {
+    background-color: #ed1c24;
+    color: #fff;
+    border: 2px solid #ed1c24;
+   -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+  
+}
+
+
+
+.whiteContainer {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #fff;
+    -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+}
+
+
+
+.title {
+    font: italic bold 250% 'Merriweather', serif;
+    margin-top: 20px;
+}
+
+.details {
+    font-size: 125%;
+    line-height: 150%;
+    margin: 25px auto;
+}
+
+.img {
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0;
+    transition: opacity 3s;
+}
+
+/* 1025px For Large screens or Desktops */
+@media screen and (min-width: 1025px) {
+
+    .redContainer,
+    .whiteContainer {
+        height: 580px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+    }
+
+    .img {
+        opacity: 1;
+    }
+    
+      .whiteContainer:hover {
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #fff;
+     font: 20px Poppins,sans-serif;
+}
+    
+      .redContainer:hover {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+    font: 20px Poppins,sans-serif;
+}
+    
+}

@@ -1,0 +1,12 @@
+.videoWrapper {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bgVideo {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}

@@ -1,0 +1,43 @@
+.container{
+    padding: 10px;
+    background: url(/images/hintergrund.png) repeat fixed;
+}
+
+.heading {
+    font-size: 250%;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #ed1c24;
+}
+
+.fotos {
+    text-align: center;
+}
+
+.fotos__foto {
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.backToHome{
+    width: 35px;
+    color: #ed1c24;
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+}
+
+/* 1025px For Large screens or Desktops */
+@media screen and (min-width: 1025px) {
+    .heading {
+        font-size: 500%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+.container{
+    padding: 10px;
+}
+}

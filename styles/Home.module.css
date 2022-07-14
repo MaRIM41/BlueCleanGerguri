@@ -1,0 +1,342 @@
+.firstLook {
+    position: relative;
+}
+
+.firstLook__content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+}
+
+.firstLook__heading {
+    color: #121212;
+    text-transform: uppercase;
+    font-size: 300%;
+    font-weight: 900;
+    line-height: 125%;
+    text-align: center;
+
+}
+
+.textCarousel {
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    overflow: hidden;
+}
+
+.textCarousel p {
+    display: inline-block;
+    color: #ed1c24;
+    text-align: left;
+    width: 135px;
+}
+
+.services {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.services__s1,
+.services__s2,
+.services__s3,
+.services__s4 {
+    width: 100%;
+}
+
+.services__s1 {
+    order: 1;
+}
+
+.services__s2 {
+    order: 2;
+}
+
+.services__s3 {
+    order: 4;
+}
+
+.services__s4 {
+    order: 3;
+}
+
+
+.about {
+    background-color: #121212;
+    color: #fff;
+    padding: 25px;
+    background: linear-gradient(-45deg, #000, #201E1E, #8D8181, #4B2424);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.about__heading {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 250%;
+    font-weight: 900;
+    line-height: 150%;
+    letter-spacing: 2px;
+}
+
+.about__pL,
+.about__pR {
+    font-size: 125%;
+    line-height: 150%;
+}
+
+.about__pL {
+    transform: translateX(-100vw);
+    visibility: hidden;
+    transition: transform 3s;
+}
+
+.about__pR {
+    transform: translateX(100vw);
+    visibility: hidden;
+    transition: transform 3s;
+}
+
+/* fallback for IE */
+.gradientText {
+    color: #fff;
+}
+
+/* gradient text for modern browsers */
+@supports (background-clip: text) {
+    .gradientText {
+        background-image: linear-gradient(to right, #ed1c24, #fff);
+        background-clip: text;
+        color: transparent;
+    }
+}
+
+.contactForm {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+        background: url(/images/hintergrund_contact.png) repeat fixed;
+}
+
+.contactFormLeft {
+    width: 100%;
+    padding: 25px 10px;
+}
+
+.contactFormRight {
+    width: 100%;
+    padding: 5px 10px 25px 10px;
+}
+
+.contactForm__heading {
+    font: italic bold 200% 'Merriweather', serif;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.envelopeIcon {
+    display: block;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactForm__name,
+.contactForm__email,
+.contactForm__msg {
+    display: block;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.contactForm__name,
+.contactForm__email {
+    height: 50px;
+}
+
+.contactForm_sendBtn {
+    background-color: #ed1c24;
+    color: #fff;
+    font-size: 20px;
+    padding: 8px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 3px 0px #6E0D10;
+    animation: sendBtnWiggle 5s infinite;
+}
+
+.contactForm_sendBtn:hover {
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    padding: 8px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 3px 0px #6E0D10;
+    animation: sendBtnWiggle 5s infinite;
+}
+
+/* 481px For Tablets */
+@media screen and (min-width: 481px) {
+    .firstLook__heading {
+        font-size: 350%;
+    }
+
+    .about__heading {
+        font-size: 300%;
+    }
+}
+
+/* 769px For Small screens or Laptops */
+@media screen and (min-width: 769px) {
+    .firstLook__heading {
+        font-size: 400%;
+    }
+
+    .about__heading {
+        font-size: 400%;
+    }
+
+    .about__pL,
+    .about__pR {
+        transform: translateX(0px);
+        visibility: visible;
+    }
+}
+
+/* 1025px For Large screens or Desktops */
+@media screen and (min-width: 1025px) {
+    .firstLook__heading {
+        font-size: 500%;
+    }
+
+    .textCarousel {
+        font-size: 300%;
+        padding-left: 50px;
+    }
+
+    .textCarousel p {
+        width: 270px;
+    }
+
+    .services__s1,
+    .services__s2,
+    .services__s3,
+    .services__s4 {
+        width: 50%;
+    }
+
+    .services>div>div {
+        padding: 10%;
+    }
+
+    .services__s1 {
+        order: 1;
+    }
+
+    .services__s2 {
+        order: 2;
+    }
+
+    .services__s3 {
+        order: 3;
+    }
+
+    .services___s4 {
+        order: 4;
+    }
+
+    .about {
+        padding: 75px;
+        padding-left: 12%;
+    }
+
+    .about__heading {
+        font-size: 450%;
+    }
+
+    .contactFormLeft {
+        width: 50%;
+        padding-left: 5%;
+    }
+
+    .contactFormRight {
+        width: 50%;
+        padding-top: 50px;
+    }
+
+    .contactForm__paragraph {
+        font-size: 110%;
+    }
+
+}
+
+/* 1201px For Extra large screens or TV*/
+@media screen and (min-width: 1201px) {
+    .firstLook__heading {
+        font-size: 500%;
+    }
+
+    .about__heading {
+        font-size: 500%;
+    }
+
+    .contactForm__heading {
+        font-size: 290%;
+    }
+
+    .contactForm__paragraph {
+        font-size: 135%;
+    }
+}
+
+/* Animation Frames */
+@keyframes sendBtnWiggle {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    2% {
+        transform: rotate(-13deg);
+    }
+
+    3.5% {
+        transform: rotate(13deg);
+    }
+
+    5% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
