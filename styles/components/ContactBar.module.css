@@ -2,7 +2,8 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    background-color: #121212;
+    background-color: #00AEEF;
+    font-weight: bold;
     color: #fff;
     position: fixed;
     left: 0;
