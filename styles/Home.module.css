@@ -180,6 +180,11 @@
     height: 50px;
 }
 
+    .contactForm__paragraph {
+        font-size: 110%;
+        background-color: #fff;
+    }
+
 .contactForm_sendBtn {
     background-color: #2a2d90;
     color: #fff;
