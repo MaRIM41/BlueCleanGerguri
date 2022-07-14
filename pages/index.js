@@ -295,7 +295,8 @@ export default function Home() {
           </p>
         <img src={bannerImagePath2} alt="schnell" width="100%" />
         <img src={bannerImagePath} alt="zusammenarbeit" width="100%" />
-
+        </div>
+        
         <div className={`${styles.contactForm} contactForm`}>
           <div className={styles.contactFormLeft}>
             <h2 className={styles.contactForm__heading}>
