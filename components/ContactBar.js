@@ -72,7 +72,7 @@ export default function ContactBar() {
           className={styles.contactBar__icons}
           fixedWidth
         />
-        <a href="tel:+41 76 378 11 23">Jetzt anrufen</a>
+        <a href="tel:+41 76 378 11 23">Jetzt unverbindlich anrufen</a>
       </span>
     </address>
   );
