@@ -21,8 +21,8 @@
 }
 
 .textCarousel {
-    background-color: #121212;
-    color: #fff;
+    background-color: #fff;
+    color: #00AEEF;
     text-align: center;
     font-size: 150%;
     font-weight: bold;
@@ -34,7 +34,7 @@
 
 .textCarousel p {
     display: inline-block;
-    color: #ed1c24;
+    color: #2E3192;
     text-align: left;
     width: 135px;
 }
