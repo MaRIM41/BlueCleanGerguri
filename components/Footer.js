@@ -30,13 +30,13 @@ export default function Footer() {
 
         <div className={styles.footer__info}>
           <div className={styles.footer__contact}>
-            <p>SF Swiss Technology GmbH</p>
-            <p>Rheinstrasse 41b, 4402 Frenkendorf</p>
+            <p>BlueClean Gerguri</p>
+            <p>Hohenrainstrasse 26A, 4133 Pratteln</p>
             <p>
-              <a href="tel:+41 76 378 11 23">+41 76 378 11 23</a> /{" "}
-              <a href="tel:+41 76 396 95 93">+41 76 396 95 93</a>
+              <a href="tel:+41 76 307 40 01 ">+41 76 307 40 01</a> /{" "}
+              <a href="tel:+41 78 648 07 65">+41 78 648 07 65</a>
             </p>
-            <a href="mailto:info@sf-swiss.ch">info@sf-swiss.ch</a>
+            <a href="mailto:mg@blueclean.ch">mg@blueclean.ch</a>
           </div>
           <div className={styles.footer__social}>
             <div>
