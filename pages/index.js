@@ -203,8 +203,8 @@ export default function Home() {
                   typewriter
                     .typeString(
                       window.innerWidth < 769
-                        ? "CNC <br/>Fräsen <br/>Drehen <br/>Montieren <br/> Messen"
-                        : "CNC Fräsen Drehen Montieren Messen"
+                        ? "Ihr Partner <br/> für Reinigungen <br/> aller Art."
+                        : "Ihr Partner für Reinigungen aller Art."
                     )
                     .callFunction(() => {
                       console.log("String typed out!");
