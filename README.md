@@ -1,8 +1,6 @@
 ## Website
-[sf-swiss.netlify.app](https://sf-swiss.netlify.app/)
+[blueclean.netlify.app](https://blueclean.netlify.app/)
 
 ## Deploy Status
-[![Netlify Status](https://api.netlify.com/api/v1/badges/130baabc-9ee5-40ad-98d7-0a226cfea46f/deploy-status)](https://app.netlify.com/sites/sf-swiss/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/287b3d50-22ce-423b-b52b-a827d03a48dc/deploy-status)](https://app.netlify.com/sites/blueclean/deploys)
 
-## Created by
-[Muhammad Khalid](https://muhammadkhalid.xyz/)
