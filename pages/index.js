@@ -358,7 +358,7 @@ export default function Home() {
           </div>
         </div>
 
-        <img src="/images/engineering.jpg" alt="engineering" width="100%" />
+        <img src="/images/rezensionen.png" alt="Rezensionen" width="100%" />
  
 
         <ContactBar />
