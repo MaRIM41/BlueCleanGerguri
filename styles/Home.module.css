@@ -125,7 +125,7 @@
 /* gradient text for modern browsers */
 @supports (background-clip: text) {
     .gradientText {
-        background-image: linear-gradient(to right, #ed1c24, #fff);
+        background-image: linear-gradient(to right, #00AEEF, #2A2D90);
         background-clip: text;
         color: transparent;
     }
