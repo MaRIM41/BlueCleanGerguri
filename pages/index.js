@@ -20,6 +20,7 @@ export default function Home() {
   const [bannerImagePath, setBannerImagePath] = useState("/");
   const [bannerImagePath2, setBannerImagePath2] = useState("/");
   const [bannerImagePath3, setBannerImagePath3] = useState("/");
+  const [bannerImagePath4, setBannerImagePath4] = useState("/");
   const [windowWidth, setWindowWidth] = useState(0);
   const [currentPath, setCurrentPath] = useState(
     "https://sf-swiss.netlify.app/"
@@ -52,6 +53,13 @@ export default function Home() {
 
     if (windowWidth >= 961) {
     setBannerImagePath3("/images/unsere_maschinen.png");
+    }
+     if (windowWidth < 961) {
+    setBannerImagePath4("/images/rezensionen_mobile.png");
+    }
+
+    if (windowWidth >= 961) {
+    setBannerImagePath4("/images/rezensionen.png");
     }
 
     // spin text carousel
@@ -358,7 +366,7 @@ export default function Home() {
           </div>
         </div>
 
-        <img src="/images/rezensionen.png" alt="Rezensionen" width="100%" />
+        <img src={bannerImagePath4} alt="rezensionen" width="100%" />
  
 
         <ContactBar />
