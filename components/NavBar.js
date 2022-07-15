@@ -91,7 +91,7 @@ export default function NavBar() {
           <span className="toKontakt">Kontakt</span>
           {windowWidth < 1025 && (
             <a
-              href="+41 76 307 40 01"
+              href="tel:+41 76 307 40 01"
             >
               <FontAwesomeIcon
                 icon={faPhone}
