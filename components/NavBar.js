@@ -88,9 +88,6 @@ export default function NavBar() {
           <span className="toServices">Services</span>
           <span className="toUberUns">Über uns</span>
           <span className="toKontakt">Kontakt</span>
-          <Link href="/unsere-maschinen">
-            <a>Unsere Maschinen</a>
-          </Link>
           {windowWidth < 1025 && (
             <a
               href="https://maps.app.goo.gl/hgqHnGxbLSBPJiJv9"
