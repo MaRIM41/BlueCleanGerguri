@@ -245,7 +245,7 @@ export default function Home() {
               <Service
                 imgURL="/images/fräsen.png"
                 heading="Hauswartung"
-                details="Bei unseren Hauswartungs-Dienstleistungen profitieren Sie von einem optimalen Preis-Leistungs-Verhältnis. Zu unseren Tätigkeiten gehören unter anderem: Das Pflegen der Liegenschaft und Umgebung inkl. Gartenarbeiten, Treppenhausreinigung, Organisation und Durchsetzung der Hausordnung sowie einfache Tätigkeiten an der Haustechnik, Reparaturen an Türschlössern und Wasserhähnen oder der Austausch von Leuchtmitteln. Wir ermitteln anhand Ihren Ansprüchen, was, wann und wie oft ausgeführt werden soll. Sie erhalten danach von uns einen detaillierten Leistungsplan sowie eine transparente Kalkulation."
+                details="Bei unseren Hauswartungs-Dienstleistungen profitieren Sie von einem optimalen Preis-Leistungs Verhältnis. Zu unseren Tätigkeiten gehören unter anderem: Das Pflegen der Liegenschaft und Umgebung inkl. Gartenarbeiten, Treppenhausreinigung, Organisation und Durchsetzung der Hausordnung sowie einfache Tätigkeiten an der Haustechnik, Reparaturen an Türschlössern und Wasserhähnen oder der Austausch von Leuchtmitteln. Wir ermitteln anhand Ihren Ansprüchen, was, wann und wie oft ausgeführt werden soll. Sie erhalten danach von uns einen detaillierten Leistungsplan sowie eine transparente Kalkulation."
                 theme="red"
               />
             </div>
@@ -269,7 +269,7 @@ export default function Home() {
               <Service
                 imgURL="/images/messen.png"
                 heading="Umzugsreinigung"
-                details="Ein Umzug ist eine stressige Angelegenheit, der viel Planung und Fleissarbeit Bedarf. Unsere professionelle Umzugsreinigung inkl. Abnahmegarantie reduziert Ihren Stresslevel und vermeidet unliebsame Diskussionen mit den Immobilienverwaltungen oder Eigentümern. Ihr altes Zuhause wird pünktlich, reibungslos und sauber abgegeben. Gerne übergeben wir auch direkt den Schlüssel an die Verwaltung, so dass Sie nichts mehr mit der Wohnungsübergabe zu tun haben. Des Weiterns helfen wir Ihnen auch, wenn kleinere Reparaturen oder kleinere Ausbesserungen vorgenommen werden müssen."
+                details="Ein Umzug ist eine stressige Angelegenheit, der viel Planung und Fleissarbeit bedarf. Unsere professionelle Umzugsreinigung inkl. Abnahmegarantie reduziert Ihren Stresslevel und vermeidet unliebsame Diskussionen mit den Immobilienverwaltungen oder Eigentümern. Ihr altes Zuhause wird pünktlich, reibungslos und sauber abgegeben. Gerne übergeben wir auch direkt den Schlüssel an die Verwaltung, so dass Sie nichts mehr mit der Wohnungsübergabe zu tun haben. Des Weiteren helfen wir Ihnen auch, wenn kleinere Reparaturen oder kleinere Ausbesserungen vorgenommen werden müssen."
                 theme="red"
               />
             </div>
@@ -284,14 +284,14 @@ export default function Home() {
             ÜBER UNS
           </h3>
           <p className={`${styles.about__pL} about__pL`}>
-            Wir fräsen Ihre Teile aus den unterschiedlichsten Materialien mit
-            hoher Genauigkeit (+- 0.01mm) zu fairen Preisen und schnellen
-            Lieferzeiten.
+            Wir sind ein junges inhabergeführtes Unternehmen aus der Region Basel.
+            Zu unseren Kunden zählen Unternehmen sowie auch Privatpersonen aus der ganzen
+            Nordwestschweiz.
           </p>
           <p className={`${styles.about__pR} about__pR`}>
-            Ob Serienfrästeile oder Prototypen eines Ihrer zukünftigen Projekte,
-            auf einer Arbeitsfläche von 1000x500mm sind Ihren Teilen fast keine
-            Grenzen gesetzt.
+            Unsere Arbeiten verrichten wir zuverlässig, unkompliziert und diskret.
+            Die Arbeitsabläufe haben wir so optimiert, dass wir Ihnen ein ausgezeichnetes
+            Preis-Leistungs Verhältnis anbieten können.
           </p>
         <img src={bannerImagePath2} alt="schnell" width="100%" />
         <img src={bannerImagePath} alt="zusammenarbeit" width="100%" />
