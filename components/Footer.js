@@ -52,7 +52,7 @@ export default function Footer() {
                   className={styles.footer__icons}
                 />
               </a>
-              <a href="#">
+              <a href="instagram.com/bluecleangerguri">
                 <FontAwesomeIcon
                   icon={faInstagram}
                   className={styles.footer__icons}
