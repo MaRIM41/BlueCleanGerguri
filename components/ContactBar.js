@@ -51,7 +51,7 @@ export default function ContactBar() {
     <address className={`${styles.contactBar} contactBar`}>
       <a
         className={styles.whatsappBtn}
-        href="whatsapp://send?text=Hi!Ich bin auf eurer Webseite und habe folgende Frage:&phone=+41763781123"
+        href="whatsapp://send?text=Hallo, ich bin auf eurer Webseite und habe folgende Frage:&phone=+41763074001"
         target="_blank"
         rel="noreferrer"
       >
@@ -72,7 +72,7 @@ export default function ContactBar() {
           className={styles.contactBar__icons}
           fixedWidth
         />
-        <a href="tel:+41 76 378 11 23">Jetzt unverbindlich anrufen</a>
+        <a href="tel:+41763074001">Jetzt unverbindlich anrufen</a>
       </span>
     </address>
   );
