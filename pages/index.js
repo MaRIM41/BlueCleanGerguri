@@ -303,7 +303,7 @@ export default function Home() {
               Kontaktieren Sie uns
             </h2>
             <p className={styles.contactForm__paragraph}>
-              Möchten Sie mehr über unsere Services wissen oder eine
+              Möchten Sie mehr über unsere Dienstleistungen wissen oder eine
               unverbindliche Offerte einholen? Wir freuen uns Sie
               kennenzulernen.
             </p>
