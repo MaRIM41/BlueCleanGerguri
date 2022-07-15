@@ -95,7 +95,7 @@ export default function NavBar() {
               rel="noreferrer"
             >
               <FontAwesomeIcon
-                icon={fa-phone}
+                icon={faPhone}
                 className={styles.navbar__mapLocIcon}
               />
             </a>
