@@ -11,6 +11,7 @@ import {
   faMapLocationDot,
   faPhone,
   faEnvelope,
+  faWhatsapp,
 } from "@fortawesome/free-solid-svg-icons";
 
 export default function NavBar() {
@@ -100,6 +101,16 @@ export default function NavBar() {
               />
             </a>
            )} 
+            {windowWidth < 1025 && (
+            <a
+              href="mailto:whatsapp://send?text=Hi!Ich bin auf eurer Webseite und habe folgende Frage:&phone=+41763074001"
+            >
+              <FontAwesomeIcon
+                icon={faWhatsapp}
+                className={styles.navbar__mapLocIcon}
+              />
+            </a>
+            )}   
            {windowWidth < 1025 && (
             <a
               href="mailto:mg@blueclean.ch"
