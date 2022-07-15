@@ -108,7 +108,7 @@ export default function NavBar() {
               rel="noreferrer"
             >
               <FontAwesomeIcon
-                icon={faWhatsappSquare}
+                icon={faPhone}
                 className={styles.navbar__mapLocIcon}
               />
             </a>
