@@ -10,10 +10,10 @@ export default function ImpressumDatenschutz() {
   return (
     <>
       <Head>
-        <title>SF SWISS TECHNOLOGY GMBH</title>
+        <title>BlueClean Gerguri | Impressum</title>
         <meta
           name="description"
-          content="CNC - Frästeile aus Stahl, Edelstahl, Alumunium, Kunststoff und vielen weiteren Materialien!"
+          content="BlueClean Gerguri - Ihr Partner für Reinigungen aller Art."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -23,23 +23,22 @@ export default function ImpressumDatenschutz() {
 
         <div>
           <h3>Kontakt-Adresse</h3>
-          <p>SF Swiss Technology GmbH</p>
-          <p>Rheinstrasse 41</p>
-          <p>4402 Frenkendorf</p>
+          <p>BlueClean Gerguri</p>
+          <p>Hohenrainstrasse 26A</p>
+          <p>4133 Pratteln</p>
           <p>Schweiz</p>
           <p>
-            <strong>E-Mail: </strong>info@sf-swiss.ch
+            <strong>E-Mail: </strong>mg@blueclean.ch
           </p>
         </div>
         <div>
           <h3>Vertretungsberechtigte Person(en)</h3>
-           <p>Ramadani, Adelina Gesellschafterin</p>
-          <p>Ramadani, Labinota Gesellschafterin</p>
+           <p>Muharrem Gerguri</p>
         </div>
         <div>
           <h3>Handelsregister-Eintrag</h3>
-          <p>Eingetragener Firmenname: SF Swiss Technology GmbH</p>
-          <p>Handelsregister Nr: CHE-240.813.128</p>
+          <p>Eingetragener Firmenname: BLUE CLEAN GERGURI</p>
+          <p>Handelsregister Nr: CHE-285.759.063</p>
         </div>
         <div>
           <h3>Haftungsausschluss</h3>
@@ -95,20 +94,19 @@ export default function ImpressumDatenschutz() {
             der EU-Datenschutzgrundverordnung (DSGVO), ist:
           </p>
           <br />
-          <p>SF Swiss Technology GmbH</p>
-          <p>Ramadani, Adelina</p>
-          <p>Ramadani, Labinota</p>
-          <p>Rheinstrasse 41</p>
-          <p>4402 Frenkendorf</p>
+          <p>BLUECLEAN Gerguri</p>
+          <p>Muharrem Gerguri</p>
+          <p>Hohenrainstrasse 26A</p>
+          <p>4133 Pratteln</p>
           <p>
-            <strong>Telefon:</strong> +41 76 396 95 93
+            <strong>Telefon:</strong> +41 76 307 40 01 
           </p>
           <p>
-            <strong>E-Mail:</strong> info@sf-swiss.ch
+            <strong>E-Mail:</strong> mg@blueclean.ch
           </p>
           <p>
             <strong>WebSite:</strong>{" "}
-            <a href="http://sf-swiss.ch/">http://sf-swiss.ch/</a>{" "}
+            <a href="http://blueclean.ch/">http://blueclean.ch/</a>{" "}
           </p>
           <br />
         </div>
