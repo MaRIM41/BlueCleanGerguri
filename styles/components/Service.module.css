@@ -55,7 +55,7 @@
 
     .redContainer,
     .whiteContainer {
-        height: 580px;
+        height: 800px;
         display: flex;
         flex-flow: column nowrap;
         justify-content: center;
