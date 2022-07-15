@@ -194,7 +194,7 @@ export default function Home() {
         <title>BLUECLEAN Gerguri | Ihr Partner für Reinigungen aller Art.</title>
         <meta
           name="description"
-          content="Ihr Partner für Reinigungen aller Art."
+          content="Hauswartung. Unterhaltsreinigung. Fensterreinigung. Umzugsreinigung."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
