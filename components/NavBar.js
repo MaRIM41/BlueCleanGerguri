@@ -99,6 +99,8 @@ export default function NavBar() {
                 className={styles.navbar__mapLocIcon}
               />
             </a>
+           )} 
+           {windowWidth < 1025 && (
             <a
               href="mailto:mg@blueclean.ch"
             >
@@ -107,7 +109,7 @@ export default function NavBar() {
                 className={styles.navbar__mapLocIcon}
               />
             </a>
-          )}        
+            )}      
         </div>
 
         {!isMenuOpened ? (
