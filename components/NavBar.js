@@ -121,6 +121,7 @@ export default function NavBar() {
                 icon={faEnvelope}
                 className={styles.navbar__mapLocIcon}
               />
+            mailen
             </a>
             )}      
         </div>
