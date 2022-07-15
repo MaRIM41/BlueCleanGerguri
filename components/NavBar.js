@@ -10,6 +10,7 @@ import {
   faXmark,
   faMapLocationDot,
   faPhone,
+  faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 
 export default function NavBar() {
@@ -73,7 +74,7 @@ export default function NavBar() {
       <img
         className={styles.navbar__logo}
         src="/images/logo.png"
-        alt="SF SWISS"
+        alt="Blueclean"
       />
 
       <div>
@@ -95,6 +96,14 @@ export default function NavBar() {
             >
               <FontAwesomeIcon
                 icon={faPhone}
+                className={styles.navbar__mapLocIcon}
+              />
+            </a>
+            <a
+              href="mailto:mg@blueclean.ch"
+            >
+              <FontAwesomeIcon
+                icon={faEnvelope}
                 className={styles.navbar__mapLocIcon}
               />
             </a>
