@@ -244,15 +244,15 @@ export default function Home() {
             <div className={styles.services__s1}>
               <Service
                 imgURL="/images/fräsen.png"
-                heading="Fräsen"
-                details="Mit dem CNC-Fräsen können Teile und Komponenten hergestellt werden, die äußerst präzise Abmessungen und Anforderungen erfüllen. Mit Hilfe von computergesteuerten Werkzeugen wird der Herstellungsprozess schnell und mit höchster Genauigkeit abgeschlossen. Wir bieten einen umfassenden Service unter Verwendung einer Vielzahl von Materialien sowie CNC-Prototyping, um sicherzustellen, dass das fertige Produkt Ihre Erwartungen erfüllt oder übertrifft."
+                heading="Hauswartung"
+                details="Mit dem CNC-Fräsen können Teile und Komponenten hergestellt werden, die äußerst präzise Abmessungen und Anforderungen erfüllen. Mit Hilfe von computergesteuerten Werkzeugen wird der Herstellungsprozess schnell und mit höchster Genauigkeit abgeschlossen. Wir bieten einen umfassenden Service unter Verwendung einer Vielzahl von Materialien sowie CNC-Prototyping."
                 theme="red"
               />
             </div>
             <div className={styles.services__s2}>
               <Service
                 imgURL="/images/drehen.png"
-                heading="Drehen"
+                heading="Fensterreinigung"
                 details="Unsere hervorragenden CNC-Drehdienstleistungen ermöglichen es uns, Komponenten aus einer Vielzahl von Materialien und komplexen engen Toleranzen mit Präzision herzustellen. Durch den Einsatz von hochwertigen Maschinen in unserer Werkstatt, können wir die komplexen Spezifikationen unserer Kunden mit Präzision erfüllen. Unsere Präzisionsprozesse können auf jede Anwendung zugeschnitten werden."
                 theme="white"
               />
@@ -260,7 +260,7 @@ export default function Home() {
             <div className={styles.services__s3}>
               <Service
                 imgURL="/images/montieren.png"
-                heading="Montieren"
+                heading="Umzugsreinigung"
                 details="Wir fertigen und montieren komplette Baugruppen nach ihren individuellen Konstruktionszeichnungen. Dazu brauchen wir einfach eine Stückliste, die erforderlichen Einzelteilzeichnungen sowie eine Baugruppenzeichnung - den Rest übernehmen wir!"
                 theme="white"
               />
@@ -268,7 +268,7 @@ export default function Home() {
             <div className={styles.services__s4}>
               <Service
                 imgURL="/images/messen.png"
-                heading="Messen"
+                heading="Unterhaltsreinigung"
                 details="Wir sind in der Lage, Teile zu vermessen  und liefern sie mit Prüfprotokoll nach Kundenwunsch. Darüber hinaus können  Messergebnisse im Auftrag hausintern archiviert werden, wodurch die Rückverfolgbarkeit jederzeit gewährleistet ist."
                 theme="red"
               />
