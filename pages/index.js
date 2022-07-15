@@ -245,7 +245,7 @@ export default function Home() {
               <Service
                 imgURL="/images/fräsen.png"
                 heading="Hauswartung"
-                details="Mit dem CNC-Fräsen können Teile und Komponenten hergestellt werden, die äußerst präzise Abmessungen und Anforderungen erfüllen. Mit Hilfe von computergesteuerten Werkzeugen wird der Herstellungsprozess schnell und mit höchster Genauigkeit abgeschlossen. Wir bieten einen umfassenden Service unter Verwendung einer Vielzahl von Materialien sowie CNC-Prototyping."
+                details="Bei unseren Hauswartungs-Dienstleistungen profitieren Sie von einem optimalen Preis-Leistungs-Verhältnis. Zu unseren Tätigkeiten gehören unter anderem: Das Pflegen der Liegenschaft und Umgebung inkl. Gartenarbeiten, Treppenhausreinigung, Organisation und Durchsetzung der Hausordnung sowie einfache Tätigkeiten an der Haustechnik, Reparaturen an Türschlössern und Wasserhähnen oder der Austausch von Leuchtmitteln. Wir ermitteln anhand Ihren Ansprüchen, was, wann und wie oft ausgeführt werden soll. Sie erhalten danach von uns einen detaillierten Leistungsplan sowie eine transparente Kalkulation."
                 theme="red"
               />
             </div>
@@ -253,7 +253,7 @@ export default function Home() {
               <Service
                 imgURL="/images/drehen.png"
                 heading="Fensterreinigung"
-                details="Unsere hervorragenden CNC-Drehdienstleistungen ermöglichen es uns, Komponenten aus einer Vielzahl von Materialien und komplexen engen Toleranzen mit Präzision herzustellen. Durch den Einsatz von hochwertigen Maschinen in unserer Werkstatt, können wir die komplexen Spezifikationen unserer Kunden mit Präzision erfüllen. Unsere Präzisionsprozesse können auf jede Anwendung zugeschnitten werden."
+                details="Je nach Betrieb und Fensterart des Unternehmens oder Liegenschaft, müssen Fenster beidseitig von der Verschmutzung befreit werden. Eine korrekte und saubere Fensterreinigung ohne Schlieren, ist für einen Laien relativ schwierig. Wir sind darauf spezialisiert und kümmern uns gerne um Ihre Fenster Reinigung. Dabei reinigen wir auch Fenster, die nur schwierig zu erreichen sind. Zu unseren Dienstleistungen gehören unter anderem: Standard-Fensterreinigung (inkl. Fensterläden, Storen, Fensterrahmen und Fenstersimse) oder die Reinigung von verglasten Bürowänden, Schaufenstern und Wintergärten."
                 theme="white"
               />
             </div>
@@ -261,7 +261,7 @@ export default function Home() {
               <Service
                 imgURL="/images/montieren.png"
                 heading="Unterhaltsreinigung"
-                details="Wir fertigen und montieren komplette Baugruppen nach ihren individuellen Konstruktionszeichnungen. Dazu brauchen wir einfach eine Stückliste, die erforderlichen Einzelteilzeichnungen sowie eine Baugruppenzeichnung - den Rest übernehmen wir!"
+                details="Sie möchten Ihre Zeit sinnvoll einsetzen und sich nicht um die Reinigung Ihrer Wohnung/Haus oder Ihres Büros kümmern? Unterhaltsreinigung ist Vertrauenssache und die regelmässige Reinigung von Ober- und Arbeitsflächen sowie sanitären Anlagen ein notwendiges Übel, um das wir uns gerne kümmern. Unser Team ist sehr diskret und zuverlässig. Die Arbeiten erfolgen nach der von Ihnen gewünschten Periodizität und Umfang. Zu unseren Dienstleistungen gehören unter anderem: Reinigung der sanitären Anlagen sowie der Küche, Staubsaugen sowie Nassreinigung von Oberflächen und Böden sowie bei Bedarf Aufräumarbeiten bspw. Ein- und Ausräumen des Geschirrspülers."
                 theme="white"
               />
             </div>
@@ -269,7 +269,7 @@ export default function Home() {
               <Service
                 imgURL="/images/messen.png"
                 heading="Umzugsreinigung"
-                details="Wir sind in der Lage, Teile zu vermessen  und liefern sie mit Prüfprotokoll nach Kundenwunsch. Darüber hinaus können  Messergebnisse im Auftrag hausintern archiviert werden, wodurch die Rückverfolgbarkeit jederzeit gewährleistet ist."
+                details="Ein Umzug ist eine stressige Angelegenheit, der viel Planung und Fleissarbeit Bedarf. Unsere professionelle Umzugsreinigung inkl. Abnahmegarantie reduziert Ihren Stresslevel und vermeidet unliebsame Diskussionen mit den Immobilienverwaltungen oder Eigentümern. Ihr altes Zuhause wird pünktlich, reibungslos und sauber abgegeben. Gerne übergeben wir auch direkt den Schlüssel an die Verwaltung, so dass Sie nichts mehr mit der Wohnungsübergabe zu tun haben. Des Weiterns helfen wir Ihnen auch, wenn kleinere Reparaturen oder kleinere Ausbesserungen vorgenommen werden müssen."
                 theme="red"
               />
             </div>
