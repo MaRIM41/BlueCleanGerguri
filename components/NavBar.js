@@ -88,6 +88,18 @@ export default function NavBar() {
           <span className="toServices">Dienstleistungen</span>
           <span className="toUberUns">Über uns</span>
           <span className="toKontakt">Kontakt</span>
+          {windowWidth < 1025 && (
+            <a
+              href="https://maps.app.goo.gl/hgqHnGxbLSBPJiJv9"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FontAwesomeIcon
+                icon={faMapLocationDot}
+                className={styles.navbar__mapLocIcon}
+              />
+            </a>
+          )}        
         </div>
 
         {!isMenuOpened ? (
