@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBars,
   faXmark,
-  faMapLocationDot,
+  faComments,
   faPhone,
   faEnvelope,
   faMessageSmile,
@@ -108,7 +108,7 @@ export default function NavBar() {
               rel="noreferrer"
             >
               <FontAwesomeIcon
-                icon={faMessageSmile}
+                icon={faComments}
                 className={styles.navbar__mapLocIcon}
               />
             </a>
