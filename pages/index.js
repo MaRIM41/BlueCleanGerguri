@@ -260,7 +260,7 @@ export default function Home() {
             <div className={styles.services__s3}>
               <Service
                 imgURL="/images/montieren.png"
-                heading="Umzugsreinigung"
+                heading="Unterhaltsreinigung"
                 details="Wir fertigen und montieren komplette Baugruppen nach ihren individuellen Konstruktionszeichnungen. Dazu brauchen wir einfach eine Stückliste, die erforderlichen Einzelteilzeichnungen sowie eine Baugruppenzeichnung - den Rest übernehmen wir!"
                 theme="white"
               />
@@ -268,7 +268,7 @@ export default function Home() {
             <div className={styles.services__s4}>
               <Service
                 imgURL="/images/messen.png"
-                heading="Unterhaltsreinigung"
+                heading="Umzugsreinigung"
                 details="Wir sind in der Lage, Teile zu vermessen  und liefern sie mit Prüfprotokoll nach Kundenwunsch. Darüber hinaus können  Messergebnisse im Auftrag hausintern archiviert werden, wodurch die Rückverfolgbarkeit jederzeit gewährleistet ist."
                 theme="red"
               />
