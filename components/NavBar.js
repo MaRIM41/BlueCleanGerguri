@@ -103,7 +103,7 @@ export default function NavBar() {
            )} 
             {windowWidth < 1025 && (
             <a
-              href="mailto:whatsapp://send?text=Hi!Ich bin auf eurer Webseite und habe folgende Frage:&phone=+41763074001"
+              href="whatsapp://send?text=Hi!Ich bin auf eurer Webseite und habe folgende Frage:&phone=+41763074001"
               target="_blank"
               rel="noreferrer"
             >
