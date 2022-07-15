@@ -1394,7 +1394,7 @@ export default function ImpressumDatenschutz() {
           </p>
         </div>
         <p>
-          Frenkendorf, 10.06.2022
+          Pratteln, 15.07.2022
           <br />
           Quelle:{" "}
           <a href="https://www.swissanwalt.ch" target="_blank" rel="noreferrer">
