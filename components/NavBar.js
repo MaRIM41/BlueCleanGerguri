@@ -91,9 +91,7 @@ export default function NavBar() {
           <span className="toKontakt">Kontakt</span>
           {windowWidth < 1025 && (
             <a
-              href="https://maps.app.goo.gl/hgqHnGxbLSBPJiJv9"
-              target="_blank"
-              rel="noreferrer"
+              href="+41 76 307 40 01"
             >
               <FontAwesomeIcon
                 icon={faPhone}
