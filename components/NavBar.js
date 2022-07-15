@@ -85,7 +85,7 @@ export default function NavBar() {
               : styles.navbar__mobileMenusHide
           }
         >
-          <span className="toServices">Services</span>
+          <span className="toServices">Dienstleistungen</span>
           <span className="toUberUns">Über uns</span>
           <span className="toKontakt">Kontakt</span>
           {windowWidth < 1025 && (
