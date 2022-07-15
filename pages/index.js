@@ -191,7 +191,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>BLUECLEAN Gerguri | Ihr Partner für Reinigungen aller Art.</title>
+        <title>BLUECLEAN Gerguri | Ihr Partner für Reinigungen aller Art in Basel.</title>
         <meta
           name="description"
           content="Hauswartung. Unterhaltsreinigung. Fensterreinigung. Umzugsreinigung."
