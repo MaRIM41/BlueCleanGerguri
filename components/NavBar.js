@@ -11,7 +11,7 @@ import {
   faMapLocationDot,
   faPhone,
   faEnvelope,
-  faWhatsappSquare,
+  faMessageSmile,
 } from "@fortawesome/free-solid-svg-icons";
 
 export default function NavBar() {
@@ -108,7 +108,7 @@ export default function NavBar() {
               rel="noreferrer"
             >
               <FontAwesomeIcon
-                icon={faPhone}
+                icon={faMessageSmile}
                 className={styles.navbar__mapLocIcon}
               />
             </a>
