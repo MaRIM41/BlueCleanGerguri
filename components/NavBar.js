@@ -9,6 +9,7 @@ import {
   faBars,
   faXmark,
   faMapLocationDot,
+  faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 
 export default function NavBar() {
@@ -95,7 +96,7 @@ export default function NavBar() {
               rel="noreferrer"
             >
               <FontAwesomeIcon
-                icon={faMapLocationDot}
+                icon={faPhone}
                 className={styles.navbar__mapLocIcon}
               />
             </a>
