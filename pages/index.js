@@ -315,7 +315,7 @@ export default function Home() {
             />
           </div>
           <div className={styles.contactFormRight}>
-            <form action="https://formsubmit.co/info@sf-swiss.ch" method="POST">
+            <form action="https://formsubmit.co/mg@blueclean.ch" method="POST">
               <input
                 type="text"
                 name="Name"
