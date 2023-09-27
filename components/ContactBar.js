@@ -72,7 +72,7 @@ export default function ContactBar() {
           className={styles.contactBar__icons}
           fixedWidth
         />
-        <a href="tel:+41763074001">Jetzt unverbindlich anrufen</a>
+        <a href="tel:+41788078560">Jetzt unverbindlich anrufen</a>
       </span>
     </address>
   );
