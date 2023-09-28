@@ -33,7 +33,7 @@ export default function Footer() {
             <p>BlueClean Gerguri</p>
             <p>Hohenrainstrasse 26A, 4133 Pratteln</p>
             <p>
-              <a href="tel:+41 76 307 40 01 ">+41 78 807 85 60</a> 
+              <a href="tel:+41 76 307 40 01">+41 76 307 40 01</a> 
             </p>
             <a href="mailto:mg@blueclean.ch">mg@blueclean.ch</a>
           </div>
