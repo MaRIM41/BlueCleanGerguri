@@ -236,7 +236,7 @@ export default function Home() {
   <span style={{ whiteSpace: 'nowrap' }}>Wir arbeiten stets  </span>
   <p
     className="spin-text-carousel"
-    data-rotate='["diskret.", "gründlich.", "zuverlässig.", "kostengünstig."]'
+    data-rotate='["diskret.", "gründlich.", "zuverlässig.", "preiswert."]'
     style={{ display: 'inline', whiteSpace: 'nowrap' }}
   ></p>
 </div>
