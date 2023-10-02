@@ -232,13 +232,14 @@ export default function Home() {
 
          <div className="services">
 
-           <div className={styles.textCarousel}>
-            <span>Wir arbeiten stets  </span>
-            <p
-              className="spin-text-carousel"
-              data-rotate='["diskret.", "gründlich.", "zuverlässig.", "kostengünstig."]'
-            ></p>
-          </div>
+<div className={styles.textCarousel}>
+  <span>Wir arbeiten stets </span>
+  <p
+    className="spin-text-carousel"
+    data-rotate='["diskret.", "gründlich.", "zuverlässig.", "kostengünstig."]'
+    style={{ whiteSpace: 'nowrap' }} // Hier wurde die Zeile hinzugefügt
+  ></p>
+</div>
 
           <div className={styles.services}>
             <div className={styles.services__s1}>
