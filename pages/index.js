@@ -233,13 +233,14 @@ export default function Home() {
          <div className="services">
 
 <div className={styles.textCarousel}>
-  <span>Wir arbeiten stets </span>
+  <span style={{ whiteSpace: 'nowrap' }}>Wir arbeiten stets  </span>
   <p
     className="spin-text-carousel"
     data-rotate='["diskret.", "gründlich.", "zuverlässig.", "kostengünstig."]'
-    style={{ whiteSpace: 'nowrap' }} // Hier wurde die Zeile hinzugefügt
+    style={{ display: 'inline', whiteSpace: 'nowrap' }}
   ></p>
 </div>
+
 
           <div className={styles.services}>
             <div className={styles.services__s1}>
