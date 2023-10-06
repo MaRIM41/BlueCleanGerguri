@@ -1402,14 +1402,6 @@ export default function ImpressumDatenschutz() {
           </a>
         </p>
       </div>
-      <Link href="/">
-        <a>
-          <FontAwesomeIcon
-            icon={faCircleArrowLeft}
-            className={styles.backToHome}
-          />
-        </a>
-      </Link>
     </>
   );
 } // end ImpressumDatenschutz
