@@ -10,12 +10,11 @@ export default function ImpressumDatenschutz() {
   return (
     <>
       <Head>
-        <title>BlueClean Gerguri | Impressum</title>
+        <title>DerVermittler GmbH | Impressum</title>
         <meta
           name="description"
           content="BlueClean Gerguri - Ihr Partner für Reinigungen aller Art."
         />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <div className={styles.lnANDdp}>
