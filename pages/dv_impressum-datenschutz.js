@@ -74,7 +74,7 @@ export default function ImpressumDatenschutz() {
           <p>
             Die Urheber- und alle anderen Rechte an Inhalten, Bildern, Fotos
             oder anderen Dateien auf dieser Website, gehören ausschliesslich{" "}
-            <strong>der Firma DerVermittler Gmbh</strong> oder den speziell genannten
+            <strong>der Firma derVermittler Gmbh</strong> oder den speziell genannten
             Rechteinhabern. Für die Reproduktion jeglicher Elemente ist die
             schriftliche Zustimmung des Urheberrechtsträgers im Voraus
             einzuholen.
@@ -93,7 +93,7 @@ export default function ImpressumDatenschutz() {
             der EU-Datenschutzgrundverordnung (DSGVO), ist:
           </p>
           <br />
-          <p>DerVermittler Gmbh</p>
+          <p>derVermittler Gmbh</p>
           <p>	D`Ambrosio Gianluca </p>
           <p>Dornacherstrasse 76</p>
           <p>4053 Basel</p>
