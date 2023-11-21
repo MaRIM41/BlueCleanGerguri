@@ -10,10 +10,10 @@ export default function ImpressumDatenschutz() {
   return (
     <>
       <Head>
-        <title>DerVermittler GmbH | Impressum</title>
+        <title>derVermittler GmbH | Impressum</title>
         <meta
           name="description"
-          content="DerVermittler GmbH | Impressum"
+          content="derVermittler GmbH | Impressum"
         />
       </Head>
 
