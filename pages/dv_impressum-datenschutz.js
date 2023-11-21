@@ -13,7 +13,7 @@ export default function ImpressumDatenschutz() {
         <title>DerVermittler GmbH | Impressum</title>
         <meta
           name="description"
-          content="BlueClean Gerguri - Ihr Partner für Reinigungen aller Art."
+          content="DerVermittler GmbH | Impressum"
         />
       </Head>
 
@@ -22,22 +22,22 @@ export default function ImpressumDatenschutz() {
 
         <div>
           <h3>Kontakt-Adresse</h3>
-          <p>BlueClean Gerguri</p>
-          <p>Hohenrainstrasse 26A</p>
-          <p>4133 Pratteln</p>
+          <p>derVermittler GmbH</p>
+          <p>Dornacherstrasse 74</p>
+          <p>4053 Basel</p>
           <p>Schweiz</p>
           <p>
-            <strong>E-Mail: </strong>mg@blueclean.ch
+            <strong>E-Mail: </strong>info@dervermittler.ch
           </p>
         </div>
         <div>
           <h3>Vertretungsberechtigte Person(en)</h3>
-           <p>Muharrem Gerguri</p>
+           <p>D`Ambrosio Gianluca</p>
         </div>
         <div>
           <h3>Handelsregister-Eintrag</h3>
-          <p>Eingetragener Firmenname: BLUE CLEAN GERGURI</p>
-          <p>Handelsregister Nr: CHE-285.759.063</p>
+          <p>Eingetragener Firmenname: derVermittler GmbH</p>
+          <p>Handelsregister Nr: CHE-282.645.670</p>
         </div>
         <div>
           <h3>Haftungsausschluss</h3>
@@ -93,19 +93,19 @@ export default function ImpressumDatenschutz() {
             der EU-Datenschutzgrundverordnung (DSGVO), ist:
           </p>
           <br />
-          <p>BLUECLEAN Gerguri</p>
-          <p>Muharrem Gerguri</p>
-          <p>Hohenrainstrasse 26A</p>
-          <p>4133 Pratteln</p>
+          <p>DerVermittler Gmbh</p>
+          <p>	D`Ambrosio Gianluca </p>
+          <p>Dornacherstrasse 76</p>
+          <p>4053 Basel</p>
           <p>
-            <strong>Telefon:</strong> +41 76 307 40 01 
+            <strong>Telefon:</strong> +41 79 937 40 53
           </p>
           <p>
-            <strong>E-Mail:</strong> mg@blueclean.ch
+            <strong>E-Mail:</strong> info@dervermittler.ch
           </p>
           <p>
             <strong>WebSite:</strong>{" "}
-            <a href="http://blueclean.ch/">http://blueclean.ch/</a>{" "}
+            <a href="http://dervermittler.ch/">http://dervermittler.ch/</a>{" "}
           </p>
           <br />
         </div>
@@ -1393,7 +1393,7 @@ export default function ImpressumDatenschutz() {
           </p>
         </div>
         <p>
-          Pratteln, 15.07.2022
+          Basel, 21.11.2023
           <br />
           Quelle:{" "}
           <a href="https://www.swissanwalt.ch" target="_blank" rel="noreferrer">
