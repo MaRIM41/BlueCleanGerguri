@@ -74,7 +74,7 @@ export default function ImpressumDatenschutz() {
           <p>
             Die Urheber- und alle anderen Rechte an Inhalten, Bildern, Fotos
             oder anderen Dateien auf dieser Website, gehören ausschliesslich{" "}
-            <strong>der Firma derVermittler Gmbh</strong> oder den speziell genannten
+            <strong>der Firma Buci Maler</strong> oder den speziell genannten
             Rechteinhabern. Für die Reproduktion jeglicher Elemente ist die
             schriftliche Zustimmung des Urheberrechtsträgers im Voraus
             einzuholen.
