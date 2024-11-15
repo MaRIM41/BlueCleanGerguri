@@ -10,10 +10,10 @@ export default function ImpressumDatenschutz() {
   return (
     <>
       <Head>
-        <title>derVermittler GmbH | Impressum</title>
+        <title>Buci Maler | Impressum</title>
         <meta
           name="description"
-          content="derVermittler GmbH | Impressum"
+          content="Buci Maler | Impressum"
         />
       </Head>
 
@@ -22,22 +22,22 @@ export default function ImpressumDatenschutz() {
 
         <div>
           <h3>Kontakt-Adresse</h3>
-          <p>derVermittler GmbH</p>
-          <p>Dornacherstrasse 74</p>
-          <p>4053 Basel</p>
+          <p>Buci Maler</p>
+          <p>Ergolzstrasse 46</p>
+          <p>4414 Füllinsdorf</p>
           <p>Schweiz</p>
           <p>
-            <strong>E-Mail: </strong>info@dervermittler.ch
+            <strong>E-Mail: </strong>info@buci.ch
           </p>
         </div>
         <div>
           <h3>Vertretungsberechtigte Person(en)</h3>
-           <p>D`Ambrosio Gianluca</p>
+           <p>Perquku Gerxhaliu Doruntine</p>
         </div>
         <div>
           <h3>Handelsregister-Eintrag</h3>
-          <p>Eingetragener Firmenname: derVermittler GmbH</p>
-          <p>Handelsregister Nr: CHE-282.645.670</p>
+          <p>Eingetragener Firmenname: BUCI Malergeschäft Inh Doruntine Perquku Gerxhaliu</p>
+          <p>Handelsregister Nr: CHE-245.662.486</p>
         </div>
         <div>
           <h3>Haftungsausschluss</h3>
@@ -93,19 +93,19 @@ export default function ImpressumDatenschutz() {
             der EU-Datenschutzgrundverordnung (DSGVO), ist:
           </p>
           <br />
-          <p>derVermittler Gmbh</p>
-          <p>	D`Ambrosio Gianluca </p>
-          <p>Dornacherstrasse 76</p>
-          <p>4053 Basel</p>
+          <p>Buci Maler</p>
+          <p>	Perquku Gerxhaliu Doruntine </p>
+          <p>Ergolzstrasse 46</p>
+          <p>4414 Füllinsdorf</p>
           <p>
-            <strong>Telefon:</strong> +41 79 937 40 53
+            <strong>Telefon:</strong> +41 76 706 40 44
           </p>
           <p>
-            <strong>E-Mail:</strong> info@dervermittler.ch
+            <strong>E-Mail:</strong> info@buci.ch
           </p>
           <p>
             <strong>WebSite:</strong>{" "}
-            <a href="http://dervermittler.ch/">http://dervermittler.ch/</a>{" "}
+            <a href="http://buci.ch/">http://buci.ch/</a>{" "}
           </p>
           <br />
         </div>
@@ -1393,7 +1393,7 @@ export default function ImpressumDatenschutz() {
           </p>
         </div>
         <p>
-          Basel, 21.11.2023
+          Füllinsdorf, 19.11.2024
           <br />
           Quelle:{" "}
           <a href="https://www.swissanwalt.ch" target="_blank" rel="noreferrer">
